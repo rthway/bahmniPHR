@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local development settings
+*.sqlite3
+*.log
+*.db
+
+# Media files
+media/
+
+# Static files
+staticfiles/
+
+# Secret key file
+*.key
+
+# Virtual environment
+venv/
+env/
+.Python
+
+# IDE files
+.idea/
+.vscode/
+
+# Compiled Python files
+*.pyc
+
+# Dependency directories
+lib/
+lib64/
+parts/
+bin/
+include/
+libexec/
+share/
+
+# Distribution directories
+dist/
+build/
+eggs/
+__pycache__/
+
+# Caches
+.cache/
+.caches/
+
+# Compiled bytecode
+*.pyc
+
+
+# Ignore .env files as they may contain sensitive information
+.env
+
+# Ignore pipenv virtual environment
+Pipfile
+Pipfile.lock
+
+# Ignore coverage reports
+htmlcov/
+
+# Ignore custom user settings
+config.yml

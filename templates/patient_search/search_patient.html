@@ -1,0 +1,16 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Patient Search</title>
+</head>
+<body>
+    <h1>Patient Search</h1>
+    <form method="post" action="{% url 'search_patient' %}">
+        {% csrf_token %}
+        <label for="patient_identifier">Enter Patient Identifier:</label>
+        <input type="text" name="patient_identifier" required>
+        <button type="submit">Search</button>
+    </form>
+</body>
+</html>
